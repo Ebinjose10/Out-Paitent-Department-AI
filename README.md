@@ -1,6 +1,7 @@
 # Out-Paitent-Department-AI
 Out Patient Department (OPD) AI is a smart healthcare management system that combines artificial intelligence with traditional medical consultation workflows.
 
+please refer to medium article for more info:https://medium.com/@ebin97/opd-ai-transforming-medical-documentation-with-ai-b2eee75145a7
 
 # Medical Assistant Cloud Run Application
 
