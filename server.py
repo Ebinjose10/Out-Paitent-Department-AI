@@ -197,7 +197,7 @@ def chat():
         
         # Create new session or get existing one
         if start_new or session_id not in chatbot_sessions:
-            chatbot_sessions[session_id] = OPDChatbot(api_key="AIzaSyDNMWblzU5gbW5va1U22Sxn_IeobqYbn4Q")
+            chatbot_sessions[session_id] = OPDChatbot(api_key="ENTER YOUR API KEY HERE")
             response = "Hello! I'll help assess your condition through a series of questions. Please describe your main symptoms."
             return jsonify({
                 'response': response,
