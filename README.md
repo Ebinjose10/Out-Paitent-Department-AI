@@ -85,6 +85,14 @@ The application requires a MySQL database. Schema setup scripts are provided in 
 - `DB_NAME`: Database name
 - `GEMINI_API_KEY`: Gemini AI API key
 
+## Database Setup
+1. Rename `config_template.py` to `config.py`
+2. Fill in your database credentials in `config.py`
+3. Use `database_schema.sql` to create required tables
+4. Do not commit `config.py` or any SQL files containing actual data
+
+Note: The actual database credentials and connection parameters should be set through environment variables in production/Cloud Run.
+
 ## Contributing
 1. Fork the repository
 2. Create your feature branch
