@@ -66,7 +66,7 @@ OPD AI employs a three-tier architecture designed for high-volume OPD environmen
 
      ![image](https://github.com/user-attachments/assets/8ba54f41-0271-4a1e-bafb-3168d26491bd)
 
-    The system automatically converts conversations into standardized medical reports:
+  The system automatically converts conversations into standardized medical reports:
 
     - Proper medical terminology usage
     - Consistent formatting
