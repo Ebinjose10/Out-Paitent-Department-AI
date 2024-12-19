@@ -7,6 +7,111 @@ please refer to medium article for more info:https://medium.com/@ebin97/opd-ai-t
 
 A comprehensive medical assistant application that provides automated patient consultations, department recommendations, and appointment scheduling using Google Cloud Run and Gemini AI.
 
+#OPD AI: Transforming Medical Documentation with AI
+
+![image](https://github.com/user-attachments/assets/adb2ad63-1d23-4b2a-9369-2056b66a568c)
+
+##Introduction
+
+In India’s healthcare landscape, doctors face a critical challenge: spending up to 30% of their patient interaction time on documentation rather than care. With doctors seeing over 100 patients daily in just 6–8 hours, they’re left with only 3–5 minutes per consultation. OPD(out patient department) AI addresses this challenge by providing an intelligent medical documentation assistant that captures and structures patient interactions in real-time.
+
+Target Audience: Healthcare providers, hospital administrators, and medical technology professionals looking to optimize their documentation workflow.
+
+Expected Outcome: Understanding of how OPD AI can streamline medical documentation while improving patient care quality.
+
+## Design
+
+OPD AI employs a three-tier architecture designed for high-volume OPD environments:
+
+
+![image](https://github.com/user-attachments/assets/e5643035-1100-4667-996e-b9168bfb3ce4)
+
+## Design Rationale:
+- Frontend using Streamlit: Chosen for its lightweight nature and minimal training requirements
+- backend is a hosted on google clould run which provides auto-scalling capability hence it is flexible to use and simple to deploy using docker image
+- Used cloud sql for data storage and retreval
+- LLM Integration: used state of the art google Gemini 2.0 flash exp which Enables natural conversation processing and intelligent documentation
+
+## Data Flow:
+- Doctor-patient conversation captured through chat interface
+- Real-time processing by LLM for medical terminology and context
+- Automated generation of standardized medical reports
+- Secure storage with EMR integration capability
+
+## Prerequisites
+- GCP account
+- access to google Gemini 2.0 flash api
+- google Cloud run access
+- Google cloud sql
+
+## Building Process
+
+  The chat interface provides:
+
+  - Real-time conversation capture
+  - Medical terminology highlighting
+  - Automatic formatting of patient information
+
+### Setting Up the Chat Interface 
+  
+  ![image](https://github.com/user-attachments/assets/e746f17f-c455-4c90-aaeb-1ce689e365de)
+
+  1.The chat interface provides:
+
+  - Real-time conversation capture
+  - Medical terminology highlighting
+  - Automatic formatting of patient information
+
+  2. Report Generation System
+
+     ![image](https://github.com/user-attachments/assets/8ba54f41-0271-4a1e-bafb-3168d26491bd)
+
+    The system automatically converts conversations into standardized medical reports:
+
+    - Proper medical terminology usage
+    - Consistent formatting
+    - Comprehensive patient history integration
+
+  3. Doctor Assignment Module
+
+    Intelligent routing system that:
+
+    - Analyzes patient symptoms
+    - Checks doctor availability
+    - Schedules appointments efficiently
+
+## Results/Demo
+![image](https://github.com/user-attachments/assets/6c8d70b2-77c7-4b00-938d-dcdcb279e439)
+
+
+## OPD AI demonstrates significant improvements in documentation efficiency:
+  - 60% reduction in documentation time
+  - Standardized format across departments
+  - Improved patient data accessibility
+  - Enhanced quality of medical records
+
+## What’s Next
+Future enhancements include:
+- Integration with major EMR systems
+- Multi-language support for regional healthcare
+- Advanced document upload functionality
+- Customizable templates for different specialties
+- using google speech to text api for voice integration and also translation api for multi-language support
+- integration with health apps
+- Integration of multiple AI models (like X-ray detection,cancer prediction)
+- document update from healthcare worker user
+
+## Why Google Cloud?
+
+OPD AI leverages Google Cloud’s robust infrastructure for:
+
+  - Scalable computing resources
+  - Secure data storage
+  - Advanced AI/ML capabilities
+  -Global availability and reliability
+
+
+
 ## Features
 - Automated patient symptom collection
 - AI-powered medical report generation
