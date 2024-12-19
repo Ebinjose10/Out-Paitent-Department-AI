@@ -45,12 +45,11 @@ OPD AI employs a three-tier architecture designed for high-volume OPD environmen
 - Google cloud sql
 
 ## Building Process
+The chat interface provides:
 
-  The chat interface provides:
-
-  - Real-time conversation capture
-  - Medical terminology highlighting
-  - Automatic formatting of patient information
+- Real-time conversation capture
+- Medical terminology highlighting
+- Automatic formatting of patient information
 
 ### Setting Up the Chat Interface 
   
@@ -68,17 +67,17 @@ OPD AI employs a three-tier architecture designed for high-volume OPD environmen
 
   The system automatically converts conversations into standardized medical reports:
 
-    - Proper medical terminology usage
-    - Consistent formatting
-    - Comprehensive patient history integration
+  - Proper medical terminology usage
+  - Consistent formatting
+  - Comprehensive patient history integration
 
   3. Doctor Assignment Module
 
-    Intelligent routing system that:
+  Intelligent routing system that:
 
-    - Analyzes patient symptoms
-    - Checks doctor availability
-    - Schedules appointments efficiently
+  - Analyzes patient symptoms
+  - Checks doctor availability
+  - Schedules appointments efficiently
 
 ## Results/Demo
 ![image](https://github.com/user-attachments/assets/6c8d70b2-77c7-4b00-938d-dcdcb279e439)
