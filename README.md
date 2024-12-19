@@ -82,6 +82,8 @@ OPD AI employs a three-tier architecture designed for high-volume OPD environmen
 
 ## Results/Demo
 ![image](https://github.com/user-attachments/assets/6c8d70b2-77c7-4b00-938d-dcdcb279e439)
+![image](https://github.com/user-attachments/assets/f9bcaab6-5fac-4d08-ac10-72011dc183a6)
+
 
 
 ## OPD AI demonstrates significant improvements in documentation efficiency:
